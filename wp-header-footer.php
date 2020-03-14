@@ -1,13 +1,13 @@
 <?php
 
 /*
-Plugin Name: OB Add Scripts Plugin
-Description: This plugin will help you add scripts in header and footer
-Author: Omkar B
-Version: 0.1
+Plugin Name: WP Header Footer
+Description: This plugin will help you add scripts in the header and footer.
+Author: Omkar Bhagat
+Version: 1.0.0
 */
 
-// this will create out menu
+// this will create menu
 function create_my_menu() {
 	add_menu_page(
 		'OB HeaderFooterScripts', // title
